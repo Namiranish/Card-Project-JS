@@ -40,4 +40,7 @@ function displayData(){
     }
 }
 
-window.onload = displayData
+window.onload = ()=>{
+    collectData()
+    displayData()
+}
